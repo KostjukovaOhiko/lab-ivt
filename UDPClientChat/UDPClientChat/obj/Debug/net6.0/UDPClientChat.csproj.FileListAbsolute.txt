@@ -1,0 +1,15 @@
+F:\универ\ООП\Практика № 18\UDPClientChat\UDPClientChat\bin\Debug\net6.0\UDPClientChat.exe
+F:\универ\ООП\Практика № 18\UDPClientChat\UDPClientChat\bin\Debug\net6.0\UDPClientChat.deps.json
+F:\универ\ООП\Практика № 18\UDPClientChat\UDPClientChat\bin\Debug\net6.0\UDPClientChat.runtimeconfig.json
+F:\универ\ООП\Практика № 18\UDPClientChat\UDPClientChat\bin\Debug\net6.0\UDPClientChat.dll
+F:\универ\ООП\Практика № 18\UDPClientChat\UDPClientChat\bin\Debug\net6.0\UDPClientChat.pdb
+F:\универ\ООП\Практика № 18\UDPClientChat\UDPClientChat\obj\Debug\net6.0\UDPClientChat.csproj.AssemblyReference.cache
+F:\универ\ООП\Практика № 18\UDPClientChat\UDPClientChat\obj\Debug\net6.0\UDPClientChat.GeneratedMSBuildEditorConfig.editorconfig
+F:\универ\ООП\Практика № 18\UDPClientChat\UDPClientChat\obj\Debug\net6.0\UDPClientChat.AssemblyInfoInputs.cache
+F:\универ\ООП\Практика № 18\UDPClientChat\UDPClientChat\obj\Debug\net6.0\UDPClientChat.AssemblyInfo.cs
+F:\универ\ООП\Практика № 18\UDPClientChat\UDPClientChat\obj\Debug\net6.0\UDPClientChat.csproj.CoreCompileInputs.cache
+F:\универ\ООП\Практика № 18\UDPClientChat\UDPClientChat\obj\Debug\net6.0\UDPClientChat.dll
+F:\универ\ООП\Практика № 18\UDPClientChat\UDPClientChat\obj\Debug\net6.0\refint\UDPClientChat.dll
+F:\универ\ООП\Практика № 18\UDPClientChat\UDPClientChat\obj\Debug\net6.0\UDPClientChat.pdb
+F:\универ\ООП\Практика № 18\UDPClientChat\UDPClientChat\obj\Debug\net6.0\UDPClientChat.genruntimeconfig.cache
+F:\универ\ООП\Практика № 18\UDPClientChat\UDPClientChat\obj\Debug\net6.0\ref\UDPClientChat.dll
