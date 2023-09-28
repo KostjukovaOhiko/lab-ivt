@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/Ilovajsk-1.jpg" type="image/jpg">
+</head>
+<body>
+
+<div class="wrapper">
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="images/gerb.jpg" alt="">
+            </div>
+            <ul class="menu">
+                <li><a href="index.html">Главная страница</a></li>
+                <li><a href="culture.html">Культура и искусство</a></li>
+                <li><a href="infrastructure.html">Инфраструктура</a></li>
+                <li><a href="history.html">История</a></li>
+                <li><a href="feedback.html">Обратная связь</a></li>
+                <li><a href="developer.html">Разработчик</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div id="current_date_time_block"></div>
+    <script type="text/javascript">
+        /* функция добавления ведущих нулей */
+        /* (если число меньше десяти, перед числом добавляем ноль) */
+        function zero_first_format(value)
+        {
+            if (value < 10)
+            {
+                value='0'+value;
+            }
+            return value;
+        }
+        /* функция получения текущей даты и времени */
+        function date_time()
+        {
+            var current_datetime = new Date();
+            var day = zero_first_format(current_datetime.getDate());
+            var month = zero_first_format(current_datetime.getMonth()+1);
+            var year = current_datetime.getFullYear();
+            var hours = zero_first_format(current_datetime.getHours());
+            var minutes = zero_first_format(current_datetime.getMinutes());
+            var seconds = zero_first_format(current_datetime.getSeconds());
+
+            return day+"."+month+"."+year+" "+hours+":"+minutes+":"+seconds;
+        }
+        /* каждую секунду получаем текущую дату и время */
+        /* и вставляем значение в блок с id "current_date_time_block2" */
+        setInterval(function () {
+            document.getElementById('current_date_time_block').innerHTML = date_time();
+        }, 1000);
+    </script>
+
+
+    <section id="first-section" class="section">
+        <div class="container">
+
+               <h1 style="margin-top: 0px; margin-bottom: 0px; color: #000007; margin-left:480px; font-size: 40px;"><b>Иловайск</b></h1>
+            <tt><h5 style="margin-bottom: 40px; margin-top: 0px; color: #010859; margin-left:485px; font-size: 20px;"> <i>Город-герой ДНР</i></h5></tt>
+
+            <p>
+                <strong>Иловайск</strong> — город районного подчинения. Расположен в 40 км. к северо-востоку от столицы ДНР города Донецка. Административно является городом-спутником Харцызска.
+            </p>
+            <p>
+                После распада Советского Союза Иловайск частично теряет значение узловой станции, а это приводит к заметному замирание пульса города. Уменьшается грузооборот, а также пассажирские перевозки (за сутки здесь проходит около 10 пассажирских поездов), а вместе с этим и уменьшается финансирование социальной сферы города поскольку оно неразрывно связано с железной дорогой. Но несмотря не это Иловайск продолжает жить. На данный момент на железнодорожном узле города размещены: локомотивное депо, вагонное депо, дистанция сигнализации и связи № 10, ремонтная часть № 14, путевая машинная станция № 191, строительно-монтажно-эксплуатационное управление, энергоучасток № 7 и другие предприятия, обслуживающие город и железнодорожную магистраль.
+            </p>
+            <p>
+                В городе работают 3 детских сада «Теремок», «Ромашка», «Ласточка», занимающихся воспитанием более 490 детей дошкольного возраста. Вместо четырех школ в городе осталось три учебно-воспитательные учреждения — общеобразовательная школа № 13, школа № 14 и учебно-воспитательный комплекс № 1 (образован в результате слияния двух школ № 12 и № 15), охватывающих обучением 1557 детей. Ежегодно дети работников Иловайской железной дороги оздоравливаются в детском лагере «Звездочка», который находится на балансе СМЭУ № 7.
+            </p>
+            <p>
+                В городе работает больница, состоящая из поликлиники, терапевтического, хирургического и неврологического отделения. Социально-культурные и духовные нужды города удовлетворяют Дом науки и техники, в котором работают коллектив народного театра, вокально-инструментальный ансамбль, вокальная студия, духовой оркестр и танцевальный кружок «Гармония». Работает станция юных техников, где действуют различные кружки, а также расположена музыкальная школа и школа искусств; спортивный комплекс, который имеет бассейн, тренажерные залы и спортивные секции. Также в городе действуют техническая библиотека и коммунальное учреждение «Иловайская городская универсальная публичная библиотека», которая включает: детский абонемент, юношеский абонемент, взрослый абонемент, единый читальный зал.
+            </p>
+            <p>
+                Ежегодно Иловайск отмечает День города, который приходится на 4 сентября, потому что именно в этот день он был освобожден от немецко-фашистских захватчиков. Жители города активно принимают участие в праздновании, об этом свидетельствует карнавальная процессия, с которой начинается праздник и в которой принимают участие ученики школ, воспитанники культурных учреждений, а также работники предприятий и организаций города .Также в городе отмечаются и другие не менее значимые для него даты: День Победы, День памяти жертв Чернобыля, День работника железнодорожного транспорта, День Независимости ДНР и другие праздники. В такие дни Иловайск становится необычайно привлекательным, а на главной площади города проходят торжества по случаю празднования знаменательных дат.
+            </p>
+            <div class="images">
+                <div class="img-container">
+                    <img src="images/KlM.jpg" alt="">
+                    <p><strong>Вокзал в Иловайске</strong></p>
+                </div>
+                <div class="img-container">
+                     <img src="images/ilov.jpg" alt="">
+                     <p><strong>Стела "Иловайск"</strong></p>
+                </div>
+                <div class="img-container">
+                    <img src="images/123.jpg" alt="">
+                    <p><strong>Центральная площадь</strong></p>
+                </div>
+                <div class="img-container">
+                    <img src="images/29377.jpg" alt="">
+                    <p><strong>Памятник паровозу в г.Иловайске</strong></p>
+                </div>
+                <div class="img-container">
+                    <img src="images/ilovaysk-383300.jpg" alt="">
+                    <p><strong>Железная дорога</strong></p>
+                </div>
+                <div class="img-container">
+                    <img src="images/Bolnica_120720-6.jpg" alt="">
+                    <p><strong>Узловая больница станции Иловайск</strong></p>
+                </div>
+            </div>
+        </div>
+        <a href="#" title="Вернуться к началу" class="topbutton">
+            <div class="images">
+                <div class="img-container6">
+                    <img src="images/b.jpg" alt="">
+                </div>
+
+            </div>
+        </a>
+    </section>
+</div>
+</body>
+</html>

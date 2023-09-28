@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/Ilovajsk-1.jpg" type="image/jpg">
+</head>
+<body>
+
+<div class="wrapper">
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="images/gerb.jpg" alt="">
+            </div>
+            <ul class="menu">
+                <li><a href="index.html">Главная страница</a></li>
+                <li><a href="culture.html">Культура и искусство</a></li>
+                <li><a href="infrastructure.html">Инфраструктура</a></li>
+                <li><a href="history.html">История</a></li>
+                <li><a href="feedback.html">Обратная связь</a></li>
+                <li><a href="developer.html">Разработчик</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div id="current_date_time_block"></div>
+    <script type="text/javascript">
+        /* функция добавления ведущих нулей */
+        /* (если число меньше десяти, перед числом добавляем ноль) */
+        function zero_first_format(value)
+        {
+            if (value < 10)
+            {
+                value='0'+value;
+            }
+            return value;
+        }
+        /* функция получения текущей даты и времени */
+        function date_time()
+        {
+            var current_datetime = new Date();
+            var day = zero_first_format(current_datetime.getDate());
+            var month = zero_first_format(current_datetime.getMonth()+1);
+            var year = current_datetime.getFullYear();
+            var hours = zero_first_format(current_datetime.getHours());
+            var minutes = zero_first_format(current_datetime.getMinutes());
+            var seconds = zero_first_format(current_datetime.getSeconds());
+
+            return day+"."+month+"."+year+" "+hours+":"+minutes+":"+seconds;
+        }
+        /* каждую секунду получаем текущую дату и время */
+        /* и вставляем значение в блок с id "current_date_time_block2" */
+        setInterval(function () {
+            document.getElementById('current_date_time_block').innerHTML = date_time();
+        }, 1000);
+    </script>
+
+
+    <section id="first-section" class="section">
+        <div class="container">
+            <h1 style="margin-top: 0px; margin-bottom: 40px; color: #000007; margin-left:400px; font-size: 40px;">Информация о разработчике</h1>
+
+            <style>
+                .round {
+                    border-radius: 100px;
+                    box-shadow: 0 0 0 3px #0bafaa, 0 0 13px #333;
+                }
+            </style>
+            <p><img src="images/foto.jpg" style="width: 18%; margin-left:500px; height: 10%" alt="" class="round">
+
+
+            <p style="color: #010859; font-size: 24px; margin-left:20px">
+                Сайт разработала студентка 3 курса ФМиИТ Донецкого Государственного Университета Костюкова Дарья Александровна.           </p>
+            <p style="color: rgba(0,0,255,0.97); font-size: 30px; margin-left:20px">
+                Уровень профессиональных навыков:
+            </p>
+            <div class="chart">
+                <p style="color: #010859; font-size: 24px; margin-left:20px"> Pascal ABC - 15%</p>
+                <div class="pipe">
+                    <div style="width: 15%"> </div>
+                </div>
+                <p style="color: #010859; font-size: 24px; margin-left:20px"> С# - 90%</p>
+                <div class="pipe">
+                    <div style="width: 90%"> </div>
+                </div>
+                <p style="color: #010859; font-size: 24px; margin-left:20px">Python - 10%</p>
+                <div class="pipe">
+                    <div style="width: 10%"> </div>
+                </div>
+                <p style="color: #010859; font-size: 24px; margin-left:20px">HTML - 40%</p>
+                <div class="pipe">
+                    <div style="width: 40%"> </div>
+                </div>
+            </div>
+
+        </div>
+        <a href="#" title="Вернуться к началу" class="topbutton">
+            <div class="images">
+                <div class="img-container6">
+                    <img src="images/b.jpg" alt="">
+                </div>
+
+            </div>
+        </a>
+    </section>
+</div>
+</body>
+</html>
